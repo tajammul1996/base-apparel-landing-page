@@ -6,4 +6,4 @@ This repository contains the code for base-apparel's landing page.
 
 ### Demo
 
-https://practical-kare-ca6a90.netlify.com/
+https://baseapparel-landingpage.netlify.com/
