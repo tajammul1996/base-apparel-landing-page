@@ -66,3 +66,43 @@ form {
   border-radius: 25px;
   margin-left: -35px;
 }
+
+/* media queries for laptop */
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  section p {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+
+  .logo {
+    width: 130px;
+    height: 30px;
+  }
+  /* .hero-image-desktop {
+    display: none;
+  } */
+}
+
+/* media queries for desktop */
+
+@media screen and (min-width: 1024px) {
+  .hero-image {
+    display: none;
+  }
+  body {
+    display: flex;
+  }
+  .main {
+    width: 50%;
+  }
+  .hero-image-desktop {
+    background: url("../images/hero-desktop.jpg") no-repeat;
+    height: 100vh;
+    width: 50vw;
+    object-fit: cover;
+  }
+}
